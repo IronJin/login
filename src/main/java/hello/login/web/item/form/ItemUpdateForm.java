@@ -20,6 +20,7 @@ public class ItemUpdateForm {
     private Integer price;
 
     //수정에서는 수량은 자유롭게 변경할 수 있다.
+    @NotNull
     private Integer quantity;
 
 }
